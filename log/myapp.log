@@ -1,0 +1,39 @@
+2023-10-20 18:13:12 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on LPP00102468A with PID 94068 (/Users/dungbv4.jits/Documents/Learning/eCommerceApplication/nd035-c4-Security-and-DevOps/starter_code/target/classes started by dungbv4.jits in /Users/dungbv4.jits/Documents/Learning/eCommerceApplication/nd035-c4-Security-and-DevOps)
+2023-10-20 18:13:12 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default
+2023-10-20 18:13:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-10-20 18:13:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82ms. Found 4 repository interfaces.
+2023-10-20 18:13:13 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$496afeee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-20 18:13:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-20 18:13:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-20 18:13:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-10-20 18:13:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-20 18:13:14 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2169 ms
+2023-10-20 18:13:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-10-20 18:13:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-10-20 18:13:14 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-10-20 18:13:14 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2023-10-20 18:13:14 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-10-20 18:13:14 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-10-20 18:13:14 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-20 18:13:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-20 18:13:16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-20 18:13:16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c6fc4cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b5cf611, org.springframework.security.web.header.HeaderWriterFilter@4e933cf1, org.springframework.web.filter.CorsFilter@b2e1df3, org.springframework.security.web.authentication.logout.LogoutFilter@1c5cd2ea, com.example.demo.security.JWTAuthenticationFilter@56193e3a, com.example.demo.security.JWTAuthenticationVerificationFilter@6cf3b3d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73b3ce31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38445703, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e785b28, org.springframework.security.web.session.SessionManagementFilter@574327ed, org.springframework.security.web.access.ExceptionTranslationFilter@31b289da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@443ac5b8]
+2023-10-20 18:13:16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-20 18:13:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 18:13:16 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 4.836 seconds (JVM running for 6.265)
+2023-10-20 18:13:28 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 18:13:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-10-20 18:13:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-10-20 18:13:28 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.UserController - Start create user with username. 
+2023-10-20 18:13:28 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.UserController - End create user
+2023-10-20 18:13:34 [http-nio-8080-exec-4] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-10-20 18:26:04 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.UserController - Start create user with username. 
+2023-10-20 18:26:04 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.UserController - End create user
+2023-10-20 18:26:11 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.UserController - Start create user with username. 
+2023-10-20 18:26:11 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.UserController - End create user
+2023-10-20 18:29:26 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-20 18:29:26 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-20 18:29:26 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-10-20 18:29:26 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
